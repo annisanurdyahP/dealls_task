@@ -1,0 +1,27 @@
+{
+  "name": "dealls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annisanurdyahP/dealls_task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annisanurdyahP/dealls_task/issues"
+  },
+  "homepage": "https://github.com/annisanurdyahP/dealls_task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
