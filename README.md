@@ -3,6 +3,18 @@
 ## Project Overview
 This is an automated testing project using Playwright for web application testing.
 
+## Test Reports
+Test reports are generated in the playwright-report directory.
+
+Technologies Used: 
+- Playwright
+- TypeScript
+
+## Challenge 1 & 3 Result
+1. Challenge 1: Automation Testing (Technical Skills) -> please open word document from this repo with title "Challenge 1: Automation Testing (Technical Skills)"
+2. Challenge 3: Exploration & Bug - > please open word document from this repo with title "Challenge 3: Exploration & Bug"
+
+
 ## Project Structure
 - `tests/`: Contains test specification files
   - `bookingSession.spec.ts`: Tests related to booking sessions
@@ -22,23 +34,26 @@ This is an automated testing project using Playwright for web application testin
 ```bash
 git clone [https://github.com/annisanurdyahP/dealls_task.git](https://github.com/annisanurdyahP/dealls_task.git)
 cd dealls_task
+```
+
 2. Install dependencies
+```bash
 npm install
-**Running Tests
+```
+
+3. Running Tests
 To run all tests:
+```bash
 npx playwright test
+```
 
 To run specific test files:
+```bash
 npx playwright test login.spec.ts
+```
 
-## Test Reports
-Test reports are generated in the playwright-report directory.
-
-Technologies Used: 
-- Playwright
-- TypeScript
-
-## Challenge 1 & 3 Result
-1. Challenge 1: Automation Testing (Technical Skills) -> please open word document from this repo with title "Challenge 1: Automation Testing (Technical Skills)"
-2. Challenge 3: Exploration & Bug - > please open word document from this repo with title "Challenge 3: Exploration & Bug"
+To run Playwright in UI mode (great for debugging):
+```bash
+npx playwright test --ui --headed
+```
 
